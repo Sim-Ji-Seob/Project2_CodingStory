@@ -1,4 +1,5 @@
 # codingStory
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=50px&section=header&text=개발자%20심지섭의%202차프로젝트&fontSize=50)
 
 <details>
 <summary>2차 프로젝트 기본설정</summary>
@@ -26,7 +27,7 @@ ORM : Spring Data JPA (JAVA(SQL))
 
 </details>
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=50px&section=header&text=개발자%20심지섭의%202차프로젝트&fontSize=50)
+
 
 ## 🔍목차 <br>
 -[개요](#개요)<br>
