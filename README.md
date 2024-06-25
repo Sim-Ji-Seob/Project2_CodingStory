@@ -57,8 +57,8 @@ branch : master
 <img src="https://img.shields.io/badge/visualstudiocode-81BEF7?style=flat-square&logo=visualstudiocode&logoColor=blue"/>
 <img src="https://img.shields.io/badge/intellijidea-navy?style=flat-square&logo=intellijidea&logoColor=white"/>
 <img src="https://img.shields.io/badge/github-black?style=-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/eclipseide-darkblue?style=flat-square&logo=eclipseide&logoColor=white"/>
 </p>
-[//]: # (<img src="https://img.shields.io/badge/eclipseide-darkblue?style=flat-square&logo=eclipseide&logoColor=white"/>)
 
 ### <span style="color: white;">🛠 개발 환경 🛠</span> <br>
 <p>
@@ -76,7 +76,6 @@ branch : master
 </p>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sim)](https://github.com/Sim/github-readme-stats)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SIM)](https://github.com/SIM/github-readme-stats)
 
 # ※ 팀원별 역할 ※
 - [ ] 이** (팀장) : DB설계, 게시판 관리, 카카오 API , 영화 API, layout css
@@ -87,12 +86,13 @@ branch : master
 
 #  ※ 주요 기능 ※
 
-| 기능        | 설명                                                                            | 
-|-----------|-------------------------------------------------------------------------------|
-| 보고서 작성    | 보고서 작성<br> 보고서 종류 선택(업무/회의/결재/휴가 보고서 )<br>                                    |
-| 보고서 수정    | 보고서의 종류와 제목 등 데이터 수정                                        <br/>             |
-| 보고서 삭제    | 본인글만 삭제 가능                                                                    |
-| 보고서 상신    | 자신이 결재자인 보고서의 상태 변경가능(대기중/승인/반려)<br> 결재자가 코멘트를 남기면 저장되어 보고서 작성자가 볼 수 있다.      |
+| 기능      | 설명                                                                       | 
+|---------|--------------------------------------------------------------------------|
+| 보고서 작성  | 보고서 작성<br> 보고서 종류 선택(업무/회의/결재/휴가 보고서 )<br>                               |
+| 보고서 수정  | 보고서의 종류와 제목 등 데이터 수정                                        <br/>        |
+| 보고서 삭제  | 본인글만 삭제 가능                                                               |
+| ⭐보고서 상신  | 자신이 결재자인 보고서의 상태 변경가능(대기중/승인/반려)<br> 결재자가 코멘트를 남기면 저장되어 보고서 작성자가 볼 수 있다. |
+| Chat-Bot | 채팅창에 회원의 이름과 정보를 입력하면 <br> DB에서 데이터를 불러와 채팅창에 출력                         |
                                      
 
 # 📁 프로젝트 상세
@@ -102,7 +102,7 @@ branch : master
 4. [Index 페이지](#-index-main-페이지입니다)
 5. [Chat-Bot](#-chat-bot-페이지입니다)
 
-# 보고서 문서 작성 후 결재자 설정<br>
+# ※ 보고서 문서 작성 후 결재자 설정 ※<br> 
 ## ● 보고서 작성 페이지
 <img src="src/main/resources/static/images/readme/img.png"/>
 ●↓ 작성자는 보고서 작성시 결재자를 선택할 수 있습니다. 선택할 때 동명이인을 구분하고 가독성을 높이기 위해 부서와 직급, 이름이 모두 보이도록 코드를 작성했습니다.<br>
@@ -125,7 +125,7 @@ branch : master
 <img src="src/main/resources/static/images/readme/img_6.png"/>
 <img src="src/main/resources/static/images/readme/img_8.png"/><br>
 
-# 보고서 상신, 결재 및 상세보기
+# ※ ⭐보고서 상신, 결재 및 상세보기 ※
 ### ● 보고서 상신(상세보기) 페이지
 <img src="src/main/resources/static/images/readme/img_9.png"/><br>
 <img src="src/main/resources/static/images/readme/img_10.png"/><br>
@@ -135,13 +135,13 @@ branch : master
 또한 결재 상신을 할 때 코멘트를 남길 수 있도록 textarea를 만들었으며, 작성 후 상신하면 코멘트 데이터가 저장되어 보고서 작성자에게 보이게 됩니다.
 <img src="src/main/resources/static/images/readme/img_11.png"/><br>
 
-# 보고서 목록
+# ※ 보고서 목록 ※
 ### ● 보고서 리스트 페이지
 보낸,반려된,결재 대기중,반려한, 전체 문서의 카테고리들을 나누어 페이지를 만들었는데 이동을 편리하게 하기 위해 상단에 버튼을 만들었습니다.
 리스트에서는 사진과 같이 필요하다고 생각하는 데이터를 보여지게 하였습니다.
 <img src="src/main/resources/static/images/readme/img_12.png"/><br>
 
-# Index
+# ※ Index ※
 ### ● Index Main 페이지입니다.
 로그인을 하면 본인에게 온 보고서가 있는지 한 눈에 파악하기 쉽도록 숫자로 표현하였습니다.
 a태그를 통해 이동을 할 수 있도록 작성했습니다.
