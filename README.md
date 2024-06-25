@@ -77,14 +77,14 @@ branch : master
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sim)](https://github.com/Sim/github-readme-stats)
 
-# ※ 팀원별 역할 ※
+# ⚡ 팀원별 역할 ⚡
 - [ ] 이** (팀장) : DB설계, 게시판 관리, 카카오 API , 영화 API, layout css
 - [ ] 박** (팀원) : 회원 CRUD, OAuth2 , Security , CI/CD
-- [x] <span style='background-color:green'>_**심지섭 (팀원) : 문서 CRUD, 문서 결재관리 , Chat-Bot**_</span>
+- [x] <span style='color:green'>_**심지섭 (팀원) : 문서 CRUD, 문서 결재관리 , Chat-Bot**_</span>
 - [ ] 왕** (팀원) : 출퇴근 관리 , 네이버 API , 급여 관리
 - [ ] 조** (팀원) : 부서관리, FullCalender
 
-#  ※ 주요 기능 ※
+#  🚀 주요 기능 🚀
 
 | 기능      | 설명                                                                       | 
 |---------|--------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ branch : master
 ### ● 결재 기한 설정
 <img src="src/main/resources/static/images/readme/img_4.png"/><br>
 
-### ● 다른 데이터 베이스와 연관관계가 맺어져 있다.
+### ● 다른 데이터 베이스와 연관관계
 <img src="src/main/resources/static/images/readme/img_5.png"/><br>
 <img src="src/main/resources/static/images/readme/img_6.png"/>
 <img src="src/main/resources/static/images/readme/img_8.png"/><br>
