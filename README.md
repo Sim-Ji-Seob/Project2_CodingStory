@@ -28,7 +28,7 @@ ORM : Spring Data JPA (JAVA(SQL))
 
 빌드 : Gradle
 
-설정 : application.yml, application-oauth2.yml
+설정 : application.yml, application-oauth2.yml(google,naver,kakao api 키 필요)
 
 기타 설정: 
 1. setting - gradle<br>
