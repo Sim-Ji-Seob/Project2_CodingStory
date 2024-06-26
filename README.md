@@ -4,7 +4,7 @@
 ## 🔍전체 목차 <br>
 - [개요](#개요)<br>
 - [주요 기능](#-주요-기능-)<br>
-- [프로젝트 상세](#프로젝트 상세내용)<br>
+- [프로젝트 상세](#-프로젝트-상세)<br>
 
 <details>
 <summary>2차 프로젝트 기본설정</summary>
@@ -180,9 +180,8 @@ a태그를 통해 이동을 할 수 있도록 작성했습니다.
 <img src="src/main/resources/static/images/readme/img_17.png"/><br>
 <img src="src/main/resources/static/images/readme/img_18.png" width="200" height="400"/><br>
 
-● Chat-Bot 영상
+● Chat-Bot 영상<br>
 ![2차 챗봇 짤](https://github.com/Sim-Ji-Seob/Project1_E1I4/assets/154939602/125cfbd3-b839-41d3-af82-3fd37ce5cdc3)
-
 
 
 
