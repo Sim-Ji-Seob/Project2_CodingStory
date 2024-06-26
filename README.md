@@ -1,9 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=50px&section=header&text=개발자%20심지섭의%202차프로젝트&fontSize=50)
 # 😝codingStory
 
-## 🔍목차 <br>
--[개요](#개요)<br>
--[프로젝트 상세](#프로젝트 상세내용)<br>
+## 🔍전체 목차 <br>
+- [개요](#개요)<br>
+- [주요 기능](#-주요-기능-)<br>
+- [프로젝트 상세](#프로젝트 상세내용)<br>
 
 <details>
 <summary>2차 프로젝트 기본설정</summary>
@@ -31,12 +32,12 @@ ORM : Spring Data JPA (JAVA(SQL))
 
 </details>
 
-## 프로젝트 Git 다운로드 주소
-$git clone https://github.com/Sim-Ji-Seob/Project2_CodingStory.git 
+##  📌 프로젝트 Git 다운로드 주소 📌
+$git clone https://github.com/Sim-Ji-Seob/Project2_CodingStory.git <br>
 branch : master
 
-# 프로젝트 개요
-## 일정
+# 📝프로젝트 개요📝
+## 🗓️일정
 <img src="src/main/resources/static/images/readme/img_19.png" width="300px" height="150px"/> <br>
 
 
@@ -49,7 +50,7 @@ branch : master
 
 </details><br>
 
-## 개발 환경
+## 🖱️개발 환경🖱️
 ### <span style="color: white;">💻 프로그램 💻</span> <br>
 <p>
 <img src="https://img.shields.io/badge/notion-white?style=flat-square&logo=notion&logoColor=gray"/>
@@ -96,18 +97,19 @@ branch : master
                                      
 
 # 📁 프로젝트 상세
+### 목차
 1. [보고서 작성](#보고서-문서-작성-후-결재자-설정br)
 2. [보고서 상세보기, 결재](#-보고서-상신상세보기-페이지)
 3. [보고서 목록](#-보고서-리스트-페이지)
 4. [Index 페이지](#-index-main-페이지입니다)
 5. [Chat-Bot](#-chat-bot-페이지입니다)
 
-# ※ 보고서 문서 작성 후 결재자 설정 ※<br> 
+#  1️⃣ 보고서 문서 작성 후 결재자 설정 <br> 
 ## ● 보고서 작성 페이지
 <img src="src/main/resources/static/images/readme/img.png"/>
 ●↓ 작성자는 보고서 작성시 결재자를 선택할 수 있습니다. 선택할 때 동명이인을 구분하고 가독성을 높이기 위해 부서와 직급, 이름이 모두 보이도록 코드를 작성했습니다.<br>
     결재자의 정보는 데이터베이스에 저장된 회원들의 정보를 불러와 select option 으로 불러왔습니다.  <br> 
-
+보고서의 상태는 '대기중'이 기본값으로 들어가도록 설정했습니다.<br>
 <img src="src/main/resources/static/images/readme/img_1.png"/> <br>
 
 ### ● 보고서의 종류
@@ -125,30 +127,31 @@ branch : master
 <img src="src/main/resources/static/images/readme/img_6.png"/>
 <img src="src/main/resources/static/images/readme/img_8.png"/><br>
 
-# ※ ⭐보고서 상신, 결재 및 상세보기 ※
+#  2️⃣ ⭐보고서 상신, 결재 및 상세보기 ※
 ### ● 보고서 상신(상세보기) 페이지
 <img src="src/main/resources/static/images/readme/img_9.png"/><br>
 <img src="src/main/resources/static/images/readme/img_10.png"/><br>
 상태의 값을 설정하여 상신을 누르게 되면 보고서의 상태값이 변화되어 저장됩니다.<br>
 <br>
 
-또한 결재 상신을 할 때 코멘트를 남길 수 있도록 textarea를 만들었으며, 작성 후 상신하면 코멘트 데이터가 저장되어 보고서 작성자에게 보이게 됩니다.
+아래 사진은 결재자가 상태를 변경한 후 작성자가 확인한 보고서입니다. <BR>
+결재 상신을 할 때 코멘트를 남길 수 있도록 textarea를 만들었으며, 작성 후 상신하면 코멘트 데이터가 저장되어 보고서 작성자에게 보이게 됩니다.
 <img src="src/main/resources/static/images/readme/img_11.png"/><br>
 
-# ※ 보고서 목록 ※
+#  3️ 보고서 목록 
 ### ● 보고서 리스트 페이지
 보낸,반려된,결재 대기중,반려한, 전체 문서의 카테고리들을 나누어 페이지를 만들었는데 이동을 편리하게 하기 위해 상단에 버튼을 만들었습니다.
 리스트에서는 사진과 같이 필요하다고 생각하는 데이터를 보여지게 하였습니다.
 <img src="src/main/resources/static/images/readme/img_12.png"/><br>
 
-# ※ Index ※
+# 4️⃣ Index 
 ### ● Index Main 페이지입니다.
 로그인을 하면 본인에게 온 보고서가 있는지 한 눈에 파악하기 쉽도록 숫자로 표현하였습니다.
 a태그를 통해 이동을 할 수 있도록 작성했습니다.
 <img src="src/main/resources/static/images/readme/img_13.png"/><br>
-<img src="src/main/resources/static/images/readme/img_14.png"/><br>
+<img src="src/main/resources/static/images/readme/img_14.png" width="300"/><br>
 
-# Chat-Bot
+# 5️⃣ Chat-Bot
 ### ● Chat-Bot 페이지입니다.
 사이드바 메뉴를 통해 '상담'을 클릭하면 Chat-Bot 페이지로 이동하게 됩니다.
 해당 페이지의 좌측에는 자주하는 질문을 클릭하면 내려오는 드롭바 형식으로 만들었습니다.
@@ -159,11 +162,11 @@ a태그를 통해 이동을 할 수 있도록 작성했습니다.
 우측의 상담문의 버튼을 누르면 Chat-bot 창이 뜨게 됩니다.
 알고 싶은 회원의 이름과 정보를 검색하면 DB에서 정보를 가져와 사진처럼 출력을 합니다.
 <img src="src/main/resources/static/images/readme/img_17.png"/><br>
-<img src="src/main/resources/static/images/readme/img_18.png"/><br>
+<img src="src/main/resources/static/images/readme/img_18.png" width="200" height="400"/><br>
 
 
 
-</details>
+
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
 
