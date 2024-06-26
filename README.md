@@ -112,6 +112,7 @@ branch : master
 보고서의 상태는 '대기중'이 기본값으로 들어가도록 설정했습니다.<br>
 <img src="src/main/resources/static/images/readme/img_1.png"/> <br>
 
+
 ### ● 보고서의 종류
 <img src="src/main/resources/static/images/readme/img_2.png"/><br>
 
@@ -127,6 +128,9 @@ branch : master
 <img src="src/main/resources/static/images/readme/img_6.png"/>
 <img src="src/main/resources/static/images/readme/img_8.png"/><br>
 
+![2차 보고서 작성 짤](https://github.com/Sim-Ji-Seob/Project1_E1I4/assets/154939602/63d2a158-4e49-4f11-8edf-99c0b89609e7)
+
+
 #  2️⃣ ⭐보고서 상신, 결재 및 상세보기 ※
 ### ● 보고서 상신(상세보기) 페이지
 <img src="src/main/resources/static/images/readme/img_9.png"/><br>
@@ -137,6 +141,12 @@ branch : master
 아래 사진은 결재자가 상태를 변경한 후 작성자가 확인한 보고서입니다. <BR>
 결재 상신을 할 때 코멘트를 남길 수 있도록 textarea를 만들었으며, 작성 후 상신하면 코멘트 데이터가 저장되어 보고서 작성자에게 보이게 됩니다.
 <img src="src/main/resources/static/images/readme/img_11.png"/><br>
+
+![2차 결재 상신 짤](https://github.com/Sim-Ji-Seob/Project1_E1I4/assets/154939602/960aab7c-e476-4cfe-abc1-9b2fd09684ef)
+
+### ● 보고서 수정 및 삭제
+![2차 수정, 삭제 짤](https://github.com/Sim-Ji-Seob/Project1_E1I4/assets/154939602/af9ea510-c6ea-4b01-bbbb-c0b55fab1ab9)
+
 
 #  3️ 보고서 목록 
 ### ● 보고서 리스트 페이지
@@ -164,6 +174,8 @@ a태그를 통해 이동을 할 수 있도록 작성했습니다.
 <img src="src/main/resources/static/images/readme/img_17.png"/><br>
 <img src="src/main/resources/static/images/readme/img_18.png" width="200" height="400"/><br>
 
+● Chat-Bot 영상
+![2차 챗봇 짤](https://github.com/Sim-Ji-Seob/Project1_E1I4/assets/154939602/125cfbd3-b839-41d3-af82-3fd37ce5cdc3)
 
 
 
