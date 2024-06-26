@@ -30,6 +30,12 @@ ORM : Spring Data JPA (JAVA(SQL))
 
 설정 : application.yml, application-oauth2.yml
 
+기타 설정: 
+1. setting - gradle<br>
+<img src="src/main/resources/static/images/readme/img_20.png" width="250px" height="150px"/> <br>
+2. project Structure - SDK -> 11 <br>
+   <img src="src/main/resources/static/images/readme/img_21.png" width="400px" height="50px"/> <br>
+
 </details>
 
 ##  📌 프로젝트 Git 다운로드 주소 📌
