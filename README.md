@@ -110,6 +110,9 @@ branch : master
 4. [Index 페이지](#-index-main-페이지입니다)
 5. [Chat-Bot](#-chat-bot-페이지입니다)
 
+# 전체 ERD
+<img src="src/main/resources/static/images/readme/img_22.png"/> <br>
+
 #  1️⃣ 보고서 문서 작성 후 결재자 설정 <br> 
 ## ● 보고서 작성 페이지
 <img src="src/main/resources/static/images/readme/img.png"/>
